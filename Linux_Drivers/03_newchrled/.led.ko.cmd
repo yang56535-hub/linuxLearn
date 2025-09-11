@@ -1,0 +1,1 @@
+cmd_/home/atk/linux/Linux_Drivers/03_newchrled/led.ko := arm-none-linux-gnueabihf-ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o /home/atk/linux/Linux_Drivers/03_newchrled/led.ko /home/atk/linux/Linux_Drivers/03_newchrled/led.o /home/atk/linux/Linux_Drivers/03_newchrled/led.mod.o;  true

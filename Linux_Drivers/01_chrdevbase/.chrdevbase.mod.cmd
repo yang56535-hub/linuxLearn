@@ -1,0 +1,1 @@
+cmd_/home/atk/linux/Linux_Drivers/01_chrdevbase/chrdevbase.mod := { echo  /home/atk/linux/Linux_Drivers/01_chrdevbase/chrdevbase.o; echo; } > /home/atk/linux/Linux_Drivers/01_chrdevbase/chrdevbase.mod
