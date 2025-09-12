@@ -87,7 +87,7 @@ void led_switch(u8 sta)
 static int led_open(struct inode *inode, struct file *filp)
 {
 	int ret = 0;
-
+    filp->private_data = &newchrled; /* 设置私有数据 */
     //printk("led_open\r\n");
     return ret;
 }
@@ -111,6 +111,11 @@ static int led_release(struct inode *inode, struct file *filp)
 static ssize_t led_write(struct file *filp, const char __user *buf,
 			  size_t cnt, loff_t *offt)
 {
+
+    // 从 filp->private_data 中获取在 open 时存入的设备结构体指针
+    // struct newchrled_dev *dev = (struct newchrled_dev *)filp->private_data;
+    // 然后就可以使用 dev->major, dev->minor 等信息
+
     int ret = 0;
     unsigned char databuf[1];
     unsigned char ledstat;
@@ -241,7 +246,7 @@ fail_map:
     
     return ret;
 destroy_class:
-    class_destroy(newchrled.class);
+    class_destroy(newchrled.class); //该标签执行后继续顺序执行
 
 del_cdev:
     cdev_del(&newchrled.cdev);
