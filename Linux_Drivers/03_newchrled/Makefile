@@ -1,6 +1,6 @@
 KERNELDIR := /home/atk/linux/atk-mp1/kernel/my_linux/linux-5.4.31
 CURRENT_PATH := $(shell pwd)
-obj-m := led.o
+obj-m := newchrled.o
 
 build: kernel_modules
 

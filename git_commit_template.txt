@@ -1,6 +1,6 @@
 【来源描述】stm32驱动学习
 【项目编号】DST20250911
-【修改内容】上传驱动文件01_chrdevbase、02_led、03_newchrled，
+【修改内容】重新编译上传，修改部分文件名
 newchrled是在02_led基础上修改自动创建设备号以及设备节点的led驱动文件
 【代码扫描】未扫描
 【修改人】杨中凡
@@ -10,49 +10,46 @@ newchrled是在02_led基础上修改自动创建设备号以及设备节点的le
 要提交的变更：
   （使用 "git reset HEAD <文件>..." 以取消暂存）
 
-	新文件：   Linux_Drivers/01_chrdevbase/.chrdevbase.ko.cmd
-	新文件：   Linux_Drivers/01_chrdevbase/.chrdevbase.mod.cmd
-	新文件：   Linux_Drivers/01_chrdevbase/.chrdevbase.mod.o.cmd
-	新文件：   Linux_Drivers/01_chrdevbase/.chrdevbase.o.cmd
-	新文件：   Linux_Drivers/01_chrdevbase/01_chrdevbase.code-workspace
-	新文件：   Linux_Drivers/01_chrdevbase/Makefile
-	新文件：   Linux_Drivers/01_chrdevbase/Module.symvers
-	新文件：   Linux_Drivers/01_chrdevbase/chrdevbase.c
-	新文件：   Linux_Drivers/01_chrdevbase/chrdevbase.ko
-	新文件：   Linux_Drivers/01_chrdevbase/chrdevbase.mod
-	新文件：   Linux_Drivers/01_chrdevbase/chrdevbase.mod.c
-	新文件：   Linux_Drivers/01_chrdevbase/chrdevbase.mod.o
-	新文件：   Linux_Drivers/01_chrdevbase/chrdevbase.o
-	新文件：   Linux_Drivers/01_chrdevbase/chrdevbaseAPP
-	新文件：   Linux_Drivers/01_chrdevbase/chrdevbaseAPP.c
-	新文件：   Linux_Drivers/01_chrdevbase/modules.order
-	新文件：   Linux_Drivers/02_led/.led.ko.cmd
-	新文件：   Linux_Drivers/02_led/.led.mod.cmd
-	新文件：   Linux_Drivers/02_led/.led.mod.o.cmd
-	新文件：   Linux_Drivers/02_led/.led.o.cmd
-	新文件：   Linux_Drivers/02_led/Makefile
-	新文件：   Linux_Drivers/02_led/Module.symvers
-	新文件：   Linux_Drivers/02_led/led.c
-	新文件：   Linux_Drivers/02_led/led.ko
-	新文件：   Linux_Drivers/02_led/led.mod
-	新文件：   Linux_Drivers/02_led/led.mod.c
-	新文件：   Linux_Drivers/02_led/led.mod.o
-	新文件：   Linux_Drivers/02_led/led.o
-	新文件：   Linux_Drivers/02_led/ledAPP
-	新文件：   Linux_Drivers/02_led/ledAPP.c
-	新文件：   Linux_Drivers/02_led/modules.order
-	新文件：   Linux_Drivers/03_newchrled/.led.ko.cmd
-	新文件：   Linux_Drivers/03_newchrled/.led.mod.cmd
-	新文件：   Linux_Drivers/03_newchrled/.led.mod.o.cmd
-	新文件：   Linux_Drivers/03_newchrled/.led.o.cmd
-	新文件：   Linux_Drivers/03_newchrled/Makefile
-	新文件：   Linux_Drivers/03_newchrled/Module.symvers
-	新文件：   Linux_Drivers/03_newchrled/led.c
-	新文件：   Linux_Drivers/03_newchrled/led.ko
-	新文件：   Linux_Drivers/03_newchrled/led.mod
-	新文件：   Linux_Drivers/03_newchrled/led.mod.c
-	新文件：   Linux_Drivers/03_newchrled/led.mod.o
-	新文件：   Linux_Drivers/03_newchrled/led.o
-	新文件：   Linux_Drivers/03_newchrled/ledAPP
-	新文件：   Linux_Drivers/03_newchrled/ledAPP.c
-	新文件：   Linux_Drivers/03_newchrled/modules.order
+	修改：     Linux_Drivers/01_chrdevbase/.chrdevbase.ko.cmd
+	修改：     Linux_Drivers/01_chrdevbase/.chrdevbase.mod.cmd
+	修改：     Linux_Drivers/01_chrdevbase/.chrdevbase.mod.o.cmd
+	修改：     Linux_Drivers/01_chrdevbase/.chrdevbase.o.cmd
+	修改：     Linux_Drivers/01_chrdevbase/chrdevbase.ko
+	修改：     Linux_Drivers/01_chrdevbase/chrdevbase.mod
+	修改：     Linux_Drivers/01_chrdevbase/chrdevbase.mod.o
+	修改：     Linux_Drivers/01_chrdevbase/chrdevbase.o
+	重命名：   Linux_Drivers/01_chrdevbase/chrdevbaseAPP -> Linux_Drivers/01_chrdevbase/chrdevbaseApp
+	重命名：   Linux_Drivers/01_chrdevbase/chrdevbaseAPP.c -> Linux_Drivers/01_chrdevbase/chrdevbaseApp.c
+	修改：     Linux_Drivers/01_chrdevbase/modules.order
+	修改：     Linux_Drivers/02_led/.led.ko.cmd
+	修改：     Linux_Drivers/02_led/.led.mod.cmd
+	修改：     Linux_Drivers/02_led/.led.mod.o.cmd
+	修改：     Linux_Drivers/02_led/.led.o.cmd
+	修改：     Linux_Drivers/02_led/led.ko
+	修改：     Linux_Drivers/02_led/led.mod
+	修改：     Linux_Drivers/02_led/led.mod.o
+	修改：     Linux_Drivers/02_led/led.o
+	重命名：   Linux_Drivers/02_led/ledAPP -> Linux_Drivers/02_led/ledApp
+	重命名：   Linux_Drivers/02_led/ledAPP.c -> Linux_Drivers/02_led/ledApp.c
+	修改：     Linux_Drivers/02_led/modules.order
+	删除：     Linux_Drivers/03_newchrled/.led.ko.cmd
+	删除：     Linux_Drivers/03_newchrled/.led.mod.cmd
+	新文件：   Linux_Drivers/03_newchrled/.newchrled.ko.cmd
+	新文件：   Linux_Drivers/03_newchrled/.newchrled.mod.cmd
+	重命名：   Linux_Drivers/03_newchrled/.led.mod.o.cmd -> Linux_Drivers/03_newchrled/.newchrled.mod.o.cmd
+	重命名：   Linux_Drivers/03_newchrled/.led.o.cmd -> Linux_Drivers/03_newchrled/.newchrled.o.cmd
+	修改：     Linux_Drivers/03_newchrled/Makefile
+	删除：     Linux_Drivers/03_newchrled/led.ko
+	删除：     Linux_Drivers/03_newchrled/led.mod
+	删除：     Linux_Drivers/03_newchrled/led.mod.o
+	删除：     Linux_Drivers/03_newchrled/led.o
+	重命名：   Linux_Drivers/03_newchrled/ledAPP -> Linux_Drivers/03_newchrled/ledApp
+	重命名：   Linux_Drivers/03_newchrled/ledAPP.c -> Linux_Drivers/03_newchrled/ledApp.c
+	修改：     Linux_Drivers/03_newchrled/modules.order
+	重命名：   Linux_Drivers/03_newchrled/led.c -> Linux_Drivers/03_newchrled/newchrled.c
+	新文件：   Linux_Drivers/03_newchrled/newchrled.ko
+	新文件：   Linux_Drivers/03_newchrled/newchrled.mod
+	重命名：   Linux_Drivers/03_newchrled/led.mod.c -> Linux_Drivers/03_newchrled/newchrled.mod.c
+	新文件：   Linux_Drivers/03_newchrled/newchrled.mod.o
+	新文件：   Linux_Drivers/03_newchrled/newchrled.o
+
