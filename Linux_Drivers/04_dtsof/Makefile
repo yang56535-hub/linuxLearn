@@ -1,6 +1,6 @@
 KERNELDIR := /home/atk/linux/video_transplant/vt_kernel/linux-5.4.31
 CURRENT_PATH := $(shell pwd)
-obj-m := newchrled.o
+obj-m := dtsof.o
 
 build: kernel_modules
 

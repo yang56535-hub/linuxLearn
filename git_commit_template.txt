@@ -1,7 +1,6 @@
-【来源描述】stm32驱动学习
-【项目编号】DST20250911
-【修改内容】重新编译上传，修改部分文件名
-newchrled是在02_led基础上修改自动创建设备号以及设备节点的led驱动文件
+【来源描述】stm32驱动学习-设备树常用 OF 操作函数
+【项目编号】DST20250918
+【修改内容】04_dtsof
 【代码扫描】未扫描
 【修改人】杨中凡
 【上传人】杨中凡
@@ -10,46 +9,26 @@ newchrled是在02_led基础上修改自动创建设备号以及设备节点的le
 要提交的变更：
   （使用 "git reset HEAD <文件>..." 以取消暂存）
 
-	修改：     Linux_Drivers/01_chrdevbase/.chrdevbase.ko.cmd
-	修改：     Linux_Drivers/01_chrdevbase/.chrdevbase.mod.cmd
-	修改：     Linux_Drivers/01_chrdevbase/.chrdevbase.mod.o.cmd
-	修改：     Linux_Drivers/01_chrdevbase/.chrdevbase.o.cmd
-	修改：     Linux_Drivers/01_chrdevbase/chrdevbase.ko
-	修改：     Linux_Drivers/01_chrdevbase/chrdevbase.mod
-	修改：     Linux_Drivers/01_chrdevbase/chrdevbase.mod.o
-	修改：     Linux_Drivers/01_chrdevbase/chrdevbase.o
-	重命名：   Linux_Drivers/01_chrdevbase/chrdevbaseAPP -> Linux_Drivers/01_chrdevbase/chrdevbaseApp
-	重命名：   Linux_Drivers/01_chrdevbase/chrdevbaseAPP.c -> Linux_Drivers/01_chrdevbase/chrdevbaseApp.c
-	修改：     Linux_Drivers/01_chrdevbase/modules.order
-	修改：     Linux_Drivers/02_led/.led.ko.cmd
-	修改：     Linux_Drivers/02_led/.led.mod.cmd
-	修改：     Linux_Drivers/02_led/.led.mod.o.cmd
-	修改：     Linux_Drivers/02_led/.led.o.cmd
-	修改：     Linux_Drivers/02_led/led.ko
-	修改：     Linux_Drivers/02_led/led.mod
-	修改：     Linux_Drivers/02_led/led.mod.o
-	修改：     Linux_Drivers/02_led/led.o
-	重命名：   Linux_Drivers/02_led/ledAPP -> Linux_Drivers/02_led/ledApp
-	重命名：   Linux_Drivers/02_led/ledAPP.c -> Linux_Drivers/02_led/ledApp.c
-	修改：     Linux_Drivers/02_led/modules.order
-	删除：     Linux_Drivers/03_newchrled/.led.ko.cmd
-	删除：     Linux_Drivers/03_newchrled/.led.mod.cmd
-	新文件：   Linux_Drivers/03_newchrled/.newchrled.ko.cmd
-	新文件：   Linux_Drivers/03_newchrled/.newchrled.mod.cmd
-	重命名：   Linux_Drivers/03_newchrled/.led.mod.o.cmd -> Linux_Drivers/03_newchrled/.newchrled.mod.o.cmd
-	重命名：   Linux_Drivers/03_newchrled/.led.o.cmd -> Linux_Drivers/03_newchrled/.newchrled.o.cmd
+	新文件：   Linux_Drivers/01_chrdevbase/.vscode/c_cpp_properties.json
+	新文件：   Linux_Drivers/01_chrdevbase/.vscode/settings.json
+	新文件：   Linux_Drivers/02_led/.vscode/c_cpp_properties.json
+	新文件：   Linux_Drivers/02_led/.vscode/settings.json
+	新文件：   Linux_Drivers/03_newchrled/.vscode/c_cpp_properties.json
+	新文件：   Linux_Drivers/03_newchrled/.vscode/settings.json
 	修改：     Linux_Drivers/03_newchrled/Makefile
-	删除：     Linux_Drivers/03_newchrled/led.ko
-	删除：     Linux_Drivers/03_newchrled/led.mod
-	删除：     Linux_Drivers/03_newchrled/led.mod.o
-	删除：     Linux_Drivers/03_newchrled/led.o
-	重命名：   Linux_Drivers/03_newchrled/ledAPP -> Linux_Drivers/03_newchrled/ledApp
-	重命名：   Linux_Drivers/03_newchrled/ledAPP.c -> Linux_Drivers/03_newchrled/ledApp.c
-	修改：     Linux_Drivers/03_newchrled/modules.order
-	重命名：   Linux_Drivers/03_newchrled/led.c -> Linux_Drivers/03_newchrled/newchrled.c
-	新文件：   Linux_Drivers/03_newchrled/newchrled.ko
-	新文件：   Linux_Drivers/03_newchrled/newchrled.mod
-	重命名：   Linux_Drivers/03_newchrled/led.mod.c -> Linux_Drivers/03_newchrled/newchrled.mod.c
-	新文件：   Linux_Drivers/03_newchrled/newchrled.mod.o
-	新文件：   Linux_Drivers/03_newchrled/newchrled.o
+	新文件：   Linux_Drivers/04_dtsof/.dtsof.ko.cmd
+	新文件：   Linux_Drivers/04_dtsof/.dtsof.mod.cmd
+	新文件：   Linux_Drivers/04_dtsof/.dtsof.mod.o.cmd
+	新文件：   Linux_Drivers/04_dtsof/.dtsof.o.cmd
+	新文件：   Linux_Drivers/04_dtsof/.vscode/c_cpp_properties.json
+	新文件：   Linux_Drivers/04_dtsof/.vscode/settings.json
+	新文件：   Linux_Drivers/04_dtsof/Makefile
+	新文件：   Linux_Drivers/04_dtsof/Module.symvers
+	新文件：   Linux_Drivers/04_dtsof/dtsof.c
+	新文件：   Linux_Drivers/04_dtsof/dtsof.ko
+	新文件：   Linux_Drivers/04_dtsof/dtsof.mod
+	新文件：   Linux_Drivers/04_dtsof/dtsof.mod.c
+	新文件：   Linux_Drivers/04_dtsof/dtsof.mod.o
+	新文件：   Linux_Drivers/04_dtsof/dtsof.o
+	新文件：   Linux_Drivers/04_dtsof/modules.order
 

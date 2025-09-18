@@ -1,0 +1,1 @@
+cmd_/home/atk/linux/git_project/linuxLearn/Linux_Drivers/04_dtsof/dtsof.mod := { echo  /home/atk/linux/git_project/linuxLearn/Linux_Drivers/04_dtsof/dtsof.o; echo; } > /home/atk/linux/git_project/linuxLearn/Linux_Drivers/04_dtsof/dtsof.mod

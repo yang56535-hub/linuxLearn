@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/atk/linux/video_transplant/vt_kernel/linux-5.4.31/include",
+                "/home/atk/linux/video_transplant/vt_kernel/linux-5.4.31/arch/arm/include",
+                "/home/atk/linux/video_transplant/vt_kernel/linux-5.4.31/arch/arm/include/generated/"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
