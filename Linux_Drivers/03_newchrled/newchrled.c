@@ -189,18 +189,6 @@ static int __init led_init(void)
     val |= (0x1 << 0);  /* 将bit0设置为1 */
     writel(val, GPIOI_BSRR_PI);
 
-    /* 8、注册字符设备驱动 */
-    /* ret = register_chrdev(LED_MAJOR, LED_NAME, &led_fops);
-    if(ret < 0){
-        printk("register chrdev failed!\r\n");
-        goto fail_map;
-    }
-    return 0;
-
-fail_map:
-    led_iounmap();
-    return -EIO; */
-
     /* 1、创建设备号 */
     newchrled.major = 0;
     if(newchrled.major){    /* 定义了设备号 */

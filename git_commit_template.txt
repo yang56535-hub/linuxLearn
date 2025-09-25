@@ -1,6 +1,6 @@
-【来源描述】stm32驱动学习-设备树常用 OF 操作函数
+【来源描述】stm32驱动学习-设备树下的驱动实验
 【项目编号】DST20250918
-【修改内容】04_dtsof
+【修改内容】新增04_dtsled
 【代码扫描】未扫描
 【修改人】杨中凡
 【上传人】杨中凡
@@ -9,26 +9,10 @@
 要提交的变更：
   （使用 "git reset HEAD <文件>..." 以取消暂存）
 
-	新文件：   Linux_Drivers/01_chrdevbase/.vscode/c_cpp_properties.json
-	新文件：   Linux_Drivers/01_chrdevbase/.vscode/settings.json
-	新文件：   Linux_Drivers/02_led/.vscode/c_cpp_properties.json
-	新文件：   Linux_Drivers/02_led/.vscode/settings.json
-	新文件：   Linux_Drivers/03_newchrled/.vscode/c_cpp_properties.json
-	新文件：   Linux_Drivers/03_newchrled/.vscode/settings.json
-	修改：     Linux_Drivers/03_newchrled/Makefile
-	新文件：   Linux_Drivers/04_dtsof/.dtsof.ko.cmd
-	新文件：   Linux_Drivers/04_dtsof/.dtsof.mod.cmd
-	新文件：   Linux_Drivers/04_dtsof/.dtsof.mod.o.cmd
-	新文件：   Linux_Drivers/04_dtsof/.dtsof.o.cmd
-	新文件：   Linux_Drivers/04_dtsof/.vscode/c_cpp_properties.json
-	新文件：   Linux_Drivers/04_dtsof/.vscode/settings.json
-	新文件：   Linux_Drivers/04_dtsof/Makefile
-	新文件：   Linux_Drivers/04_dtsof/Module.symvers
-	新文件：   Linux_Drivers/04_dtsof/dtsof.c
-	新文件：   Linux_Drivers/04_dtsof/dtsof.ko
-	新文件：   Linux_Drivers/04_dtsof/dtsof.mod
-	新文件：   Linux_Drivers/04_dtsof/dtsof.mod.c
-	新文件：   Linux_Drivers/04_dtsof/dtsof.mod.o
-	新文件：   Linux_Drivers/04_dtsof/dtsof.o
-	新文件：   Linux_Drivers/04_dtsof/modules.order
+	修改：     Linux_Drivers/03_newchrled/newchrled.c
+	新文件：   Linux_Drivers/04_dtsled/.vscode/c_cpp_properties.json
+	新文件：   Linux_Drivers/04_dtsled/.vscode/settings.json
+	新文件：   Linux_Drivers/04_dtsled/Makefile
+	新文件：   Linux_Drivers/04_dtsled/dtsled.c
+	新文件：   Linux_Drivers/04_dtsled/ledApp.c
 
