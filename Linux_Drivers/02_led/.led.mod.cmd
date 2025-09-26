@@ -1,1 +1,0 @@
-cmd_/home/atk/linux/git_project/linuxLearn/Linux_Drivers/02_led/led.mod := { echo  /home/atk/linux/git_project/linuxLearn/Linux_Drivers/02_led/led.o; echo; } > /home/atk/linux/git_project/linuxLearn/Linux_Drivers/02_led/led.mod

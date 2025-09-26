@@ -1,2 +1,0 @@
-/home/atk/linux/git_project/linuxLearn/Linux_Drivers/02_led/led.o
-
