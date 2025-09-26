@@ -181,7 +181,7 @@ static int __init beep_init(void){
         return ret;
     }
 
-    /* 6、设置 PI0 为输出，并且输出高电平，默认关闭 蜂鸣器 */
+    /* 6、设置 PC7 为输出，并且输出高电平，默认关闭 蜂鸣器 */
     ret = gpio_direction_output(beep.beep_gpio, 1);
     if(ret < 0) {
         printk("can't set gpio!\r\n");
