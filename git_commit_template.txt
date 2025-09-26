@@ -1,6 +1,6 @@
-【来源描述】stm32驱动学习-gpio子系统驱动实验
-【项目编号】DST20250918
-【修改内容】新增05_gpioled
+【来源描述】stm32驱动学习-第二十六章 Linux 蜂鸣器实验
+【项目编号】DST20250926
+【修改内容】新增06_beep
 【代码扫描】未扫描
 【修改人】杨中凡
 【上传人】杨中凡
@@ -9,9 +9,10 @@
 要提交的变更：
   （使用 "git reset HEAD <文件>..." 以取消暂存）
 
-	新文件：   Linux_Drivers/05_gpioled/.vscode/c_cpp_properties.json
-	新文件：   Linux_Drivers/05_gpioled/.vscode/settings.json
-	新文件：   Linux_Drivers/05_gpioled/Makefile
-	新文件：   Linux_Drivers/05_gpioled/gpioled.c
-	新文件：   Linux_Drivers/05_gpioled/ledApp.c
+	新文件：   Linux_Drivers/06_beep/.vscode/c_cpp_properties.json
+	新文件：   Linux_Drivers/06_beep/.vscode/settings.json
+	新文件：   Linux_Drivers/06_beep/Makefile
+	新文件：   Linux_Drivers/06_beep/beep.c
+	新文件：   Linux_Drivers/06_beep/beepApp
+	新文件：   Linux_Drivers/06_beep/beepApp.c
 
