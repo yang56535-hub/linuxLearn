@@ -9,26 +9,31 @@
 要提交的变更：
   （使用 "git reset HEAD <文件>..." 以取消暂存）
 
-	新文件：   Linux_Drivers/07_atomic/.vscode/c_cpp_properties.json
-	新文件：   Linux_Drivers/07_atomic/.vscode/settings.json
-	新文件：   Linux_Drivers/07_atomic/Makefile
-	新文件：   Linux_Drivers/07_atomic/atomic.c
-	新文件：   Linux_Drivers/07_atomic/atomicApp
-	新文件：   Linux_Drivers/07_atomic/atomicApp.c
-	新文件：   Linux_Drivers/08_spinlock/.vscode/c_cpp_properties.json
-	新文件：   Linux_Drivers/08_spinlock/.vscode/settings.json
-	新文件：   Linux_Drivers/08_spinlock/Makefile
-	新文件：   Linux_Drivers/08_spinlock/spinlock.c
-	新文件：   Linux_Drivers/08_spinlock/spinlockApp.c
-	新文件：   Linux_Drivers/09_semaphore/.vscode/c_cpp_properties.json
-	新文件：   Linux_Drivers/09_semaphore/.vscode/settings.json
-	新文件：   Linux_Drivers/09_semaphore/Makefile
-	新文件：   Linux_Drivers/09_semaphore/semaphore.c
-	新文件：   Linux_Drivers/09_semaphore/semaphoreApp.c
-	新文件：   Linux_Drivers/10_mutex/.vscode/c_cpp_properties.json
-	新文件：   Linux_Drivers/10_mutex/.vscode/settings.json
-	新文件：   Linux_Drivers/10_mutex/Makefile
-	新文件：   Linux_Drivers/10_mutex/mutex.c
-	新文件：   Linux_Drivers/10_mutex/mutexApp.c
-	修改：     git_commit_template.txt
+	修改：     Linux_Drivers/07_atomic/atomic.c
+	修改：     Linux_Drivers/07_atomic/atomicApp.c
+	修改：     Linux_Drivers/08_spinlock/spinlock.c
+	修改：     Linux_Drivers/08_spinlock/spinlockApp.c
+	修改：     Linux_Drivers/09_semaphore/semaphore.c
+	修改：     Linux_Drivers/09_semaphore/semaphoreApp.c
+	修改：     Linux_Drivers/10_mutex/mutex.c
+	修改：     Linux_Drivers/10_mutex/mutexApp.c
+	新文件：   Linux_Drivers/11_key/Makefile
+	新文件：   Linux_Drivers/11_key/key.c
+	新文件：   Linux_Drivers/11_key/keyApp
+	新文件：   Linux_Drivers/11_key/keyApp.c
+	新文件：   Linux_Drivers/12_timer/.timer.ko.cmd
+	新文件：   Linux_Drivers/12_timer/.timer.mod.cmd
+	新文件：   Linux_Drivers/12_timer/.timer.mod.o.cmd
+	新文件：   Linux_Drivers/12_timer/.timer.o.cmd
+	新文件：   Linux_Drivers/12_timer/Makefile
+	新文件：   Linux_Drivers/12_timer/Module.symvers
+	新文件：   Linux_Drivers/12_timer/modules.order
+	新文件：   Linux_Drivers/12_timer/timer.c
+	新文件：   Linux_Drivers/12_timer/timer.ko
+	新文件：   Linux_Drivers/12_timer/timer.mod
+	新文件：   Linux_Drivers/12_timer/timer.mod.c
+	新文件：   Linux_Drivers/12_timer/timer.mod.o
+	新文件：   Linux_Drivers/12_timer/timer.o
+	新文件：   Linux_Drivers/12_timer/timerApp
+	新文件：   Linux_Drivers/12_timer/timerApp.c
 

@@ -1,0 +1,1 @@
+cmd_/home/atk/linux/git_project/linuxLearn/Linux_Drivers/12_timer/timer.mod := { echo  /home/atk/linux/git_project/linuxLearn/Linux_Drivers/12_timer/timer.o; echo; } > /home/atk/linux/git_project/linuxLearn/Linux_Drivers/12_timer/timer.mod

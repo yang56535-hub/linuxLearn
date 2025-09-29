@@ -8,7 +8,7 @@
 
 /***************************************************************
 Copyright © ALIENTEK Co., Ltd. 1998-2029. All rights reserved.
-文件名 : beepApp.c
+文件名 : semaphoreApp.c
 作者 : 杨中凡
 版本 : V1.0
 描述 : 信号量实验测试 APP，测试信号量实验能不能实现一次只允许一个应用程序使用 LED。
