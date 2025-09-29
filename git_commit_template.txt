@@ -1,6 +1,6 @@
-【来源描述】stm32驱动学习-第三十章 Linux 内核定时器实验
+【来源描述】stm32驱动学习-第三十章 Linux 内核定时器实验-精简文件夹
 【项目编号】DST20250929
-【修改内容】新增11_Linux 按键输入实验、12_Linux 内核定时器实验
+【修改内容】删除驱动编译产物
 【代码扫描】未扫描
 【修改人】杨中凡
 【上传人】杨中凡
@@ -9,31 +9,16 @@
 要提交的变更：
   （使用 "git reset HEAD <文件>..." 以取消暂存）
 
-	修改：     Linux_Drivers/07_atomic/atomic.c
-	修改：     Linux_Drivers/07_atomic/atomicApp.c
-	修改：     Linux_Drivers/08_spinlock/spinlock.c
-	修改：     Linux_Drivers/08_spinlock/spinlockApp.c
-	修改：     Linux_Drivers/09_semaphore/semaphore.c
-	修改：     Linux_Drivers/09_semaphore/semaphoreApp.c
-	修改：     Linux_Drivers/10_mutex/mutex.c
-	修改：     Linux_Drivers/10_mutex/mutexApp.c
-	新文件：   Linux_Drivers/11_key/Makefile
-	新文件：   Linux_Drivers/11_key/key.c
-	新文件：   Linux_Drivers/11_key/keyApp
-	新文件：   Linux_Drivers/11_key/keyApp.c
-	新文件：   Linux_Drivers/12_timer/.timer.ko.cmd
-	新文件：   Linux_Drivers/12_timer/.timer.mod.cmd
-	新文件：   Linux_Drivers/12_timer/.timer.mod.o.cmd
-	新文件：   Linux_Drivers/12_timer/.timer.o.cmd
-	新文件：   Linux_Drivers/12_timer/Makefile
-	新文件：   Linux_Drivers/12_timer/Module.symvers
-	新文件：   Linux_Drivers/12_timer/modules.order
-	新文件：   Linux_Drivers/12_timer/timer.c
-	新文件：   Linux_Drivers/12_timer/timer.ko
-	新文件：   Linux_Drivers/12_timer/timer.mod
-	新文件：   Linux_Drivers/12_timer/timer.mod.c
-	新文件：   Linux_Drivers/12_timer/timer.mod.o
-	新文件：   Linux_Drivers/12_timer/timer.o
-	新文件：   Linux_Drivers/12_timer/timerApp
-	新文件：   Linux_Drivers/12_timer/timerApp.c
+	删除：     Linux_Drivers/12_timer/.timer.ko.cmd
+	删除：     Linux_Drivers/12_timer/.timer.mod.cmd
+	删除：     Linux_Drivers/12_timer/.timer.mod.o.cmd
+	删除：     Linux_Drivers/12_timer/.timer.o.cmd
+	删除：     Linux_Drivers/12_timer/Module.symvers
+	删除：     Linux_Drivers/12_timer/modules.order
+	删除：     Linux_Drivers/12_timer/timer.ko
+	删除：     Linux_Drivers/12_timer/timer.mod
+	删除：     Linux_Drivers/12_timer/timer.mod.c
+	删除：     Linux_Drivers/12_timer/timer.mod.o
+	删除：     Linux_Drivers/12_timer/timer.o
+
 
