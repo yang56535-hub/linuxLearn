@@ -1,6 +1,6 @@
-【来源描述】stm32驱动学习-第三十章 Linux 内核定时器实验-精简文件夹
-【项目编号】DST20250929
-【修改内容】删除驱动编译产物
+【来源描述】stm32驱动学习-第三十一章 Linux 中断实验
+【项目编号】DST20251008
+【修改内容】中断实验
 【代码扫描】未扫描
 【修改人】杨中凡
 【上传人】杨中凡
@@ -9,16 +9,17 @@
 要提交的变更：
   （使用 "git reset HEAD <文件>..." 以取消暂存）
 
-	删除：     Linux_Drivers/12_timer/.timer.ko.cmd
-	删除：     Linux_Drivers/12_timer/.timer.mod.cmd
-	删除：     Linux_Drivers/12_timer/.timer.mod.o.cmd
-	删除：     Linux_Drivers/12_timer/.timer.o.cmd
-	删除：     Linux_Drivers/12_timer/Module.symvers
-	删除：     Linux_Drivers/12_timer/modules.order
-	删除：     Linux_Drivers/12_timer/timer.ko
-	删除：     Linux_Drivers/12_timer/timer.mod
-	删除：     Linux_Drivers/12_timer/timer.mod.c
-	删除：     Linux_Drivers/12_timer/timer.mod.o
-	删除：     Linux_Drivers/12_timer/timer.o
+	新文件：   Linux_Drivers/11_key/.vscode/c_cpp_properties.json
+	新文件：   Linux_Drivers/11_key/.vscode/settings.json
+	新文件：   Linux_Drivers/12_timer/.vscode/c_cpp_properties.json
+	新文件：   Linux_Drivers/12_timer/.vscode/settings.json
+	新文件：   Linux_Drivers/13_irq/.vscode/c_cpp_properties.json
+	新文件：   Linux_Drivers/13_irq/.vscode/settings.json
+	新文件：   Linux_Drivers/13_irq/Makefile
+	新文件：   Linux_Drivers/13_irq/keyApp
+	新文件：   Linux_Drivers/13_irq/keyirq.c
+	新文件：   Linux_Drivers/13_irq/keyirqApp
+	新文件：   Linux_Drivers/13_irq/keyirqApp.c
+
 
 
