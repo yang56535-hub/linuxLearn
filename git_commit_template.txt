@@ -1,6 +1,6 @@
-【来源描述】stm32驱动学习-第三十三章 Linux 异步通知实验
+【来源描述】stm32驱动学习-第三十四、三十五章 Linux platform 设备驱动实验
 【项目编号】DST20251009
-【修改内容】中断实验
+【修改内容】第三十四章 platform 设备驱动实验、第三十五章 设备树下的 platform 驱动编写 
 【代码扫描】未扫描
 【修改人】杨中凡
 【上传人】杨中凡
@@ -9,12 +9,16 @@
 要提交的变更：
   （使用 "git reset HEAD <文件>..." 以取消暂存）
 
-	新文件：   Linux_Drivers/16_asyncnoti/.vscode/c_cpp_properties.json
-	新文件：   Linux_Drivers/16_asyncnoti/.vscode/settings.json
-	新文件：   Linux_Drivers/16_asyncnoti/Makefile
-	新文件：   Linux_Drivers/16_asyncnoti/asyncnoti.c
-	新文件：   Linux_Drivers/16_asyncnoti/asyncnotiApp
-	新文件：   Linux_Drivers/16_asyncnoti/asyncnotiApp.c
+	新文件：   Linux_Drivers/17_platform/.vscode/c_cpp_properties.json
+	新文件：   Linux_Drivers/17_platform/.vscode/settings.json
+	新文件：   Linux_Drivers/17_platform/Makefile
+	新文件：   Linux_Drivers/17_platform/leddevice.c
+	新文件：   Linux_Drivers/17_platform/leddriver.c
+	新文件：   Linux_Drivers/18_dtsplatform/.vscode/c_cpp_properties.json
+	新文件：   Linux_Drivers/18_dtsplatform/.vscode/settings.json
+	新文件：   Linux_Drivers/18_dtsplatform/Makefile
+	新文件：   Linux_Drivers/18_dtsplatform/leddtsplatformdriver.c
+
 
 
 
