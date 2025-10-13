@@ -9,15 +9,12 @@
 要提交的变更：
   （使用 "git reset HEAD <文件>..." 以取消暂存）
 
-	新文件：   Linux_Drivers/17_platform/.vscode/c_cpp_properties.json
-	新文件：   Linux_Drivers/17_platform/.vscode/settings.json
-	新文件：   Linux_Drivers/17_platform/Makefile
-	新文件：   Linux_Drivers/17_platform/leddevice.c
-	新文件：   Linux_Drivers/17_platform/leddriver.c
-	新文件：   Linux_Drivers/18_dtsplatform/.vscode/c_cpp_properties.json
-	新文件：   Linux_Drivers/18_dtsplatform/.vscode/settings.json
-	新文件：   Linux_Drivers/18_dtsplatform/Makefile
-	新文件：   Linux_Drivers/18_dtsplatform/leddtsplatformdriver.c
+	新文件：   Linux_Drivers/19_miscbeep/.vscode/c_cpp_properties.json
+	新文件：   Linux_Drivers/19_miscbeep/.vscode/settings.json
+	新文件：   Linux_Drivers/19_miscbeep/Makefile
+	新文件：   Linux_Drivers/19_miscbeep/miscbeep.c
+	新文件：   Linux_Drivers/19_miscbeep/miscbeepApp
+	新文件：   Linux_Drivers/19_miscbeep/miscbeepApp.c
 
 
 
