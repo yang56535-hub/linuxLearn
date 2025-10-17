@@ -1,6 +1,6 @@
-【来源描述】stm32驱动学习-第三十八章 Linux INPUT子系统实验
-【项目编号】DST20251016
-【修改内容】第三十八章 Linux INPUT子系统实验编写 
+【来源描述】stm32驱动学习-第三十八章 Linux I2C驱动实验
+【项目编号】DST20251017
+【修改内容】第四十一章 Linux I2C驱动实验编写 
 【代码扫描】未扫描
 【修改人】杨中凡
 【上传人】杨中凡
@@ -9,12 +9,14 @@
 要提交的变更：
   （使用 "git reset HEAD <文件>..." 以取消暂存）
 
-	新文件：   Linux_Drivers/20_input/.vscode/c_cpp_properties.json
-	新文件：   Linux_Drivers/20_input/.vscode/settings.json
-	新文件：   Linux_Drivers/20_input/Makefile
-	新文件：   Linux_Drivers/20_input/keyinput.c
-	新文件：   Linux_Drivers/20_input/keyinputApp
-	新文件：   Linux_Drivers/20_input/keyinputApp.c
+	新文件：   Linux_Drivers/21_iic/.vscode/c_cpp_properties.json
+	新文件：   Linux_Drivers/21_iic/.vscode/settings.json
+	新文件：   Linux_Drivers/21_iic/Makefile
+	新文件：   Linux_Drivers/21_iic/ap3216c.c
+	新文件：   Linux_Drivers/21_iic/ap3216cApp
+	新文件：   Linux_Drivers/21_iic/ap3216cApp.c
+	新文件：   Linux_Drivers/21_iic/ap3216creg.h
+
 
 
 
